@@ -12,12 +12,12 @@ namespace KnowledgeCheck1_CalculatorTest
         {
             //-- Arrange
             Calculator calculator = new Calculator();
-            int addNumber1 = 1;
-            int addNumber2 = 2;
+            int firstNumber = 1;
+            int secondNumber = 2;
             int expected = 3;
 
             //-- Act
-            int actual = calculator.Add(addNumber1, addNumber2);
+            int actual = calculator.Add(firstNumber, secondNumber);
 
             //-- Assert
             Assert.AreEqual(expected, actual);
@@ -28,12 +28,12 @@ namespace KnowledgeCheck1_CalculatorTest
         {
             //-- Arrange
             Calculator calculator = new Calculator();
-            int subtractNumber1 = 1;
-            int subtractNumber2 = 2;
+            int firstNumber = 1;
+            int secondNumber = 2;
             int expected = -1;
 
             //-- Act
-            int actual = calculator.Subtract(subtractNumber1, subtractNumber2);
+            int actual = calculator.Subtract(firstNumber, secondNumber);
 
             //-- Assert
             Assert.AreEqual(expected, actual);
@@ -44,12 +44,12 @@ namespace KnowledgeCheck1_CalculatorTest
         {
             //-- Arrange
             Calculator calculator = new Calculator();
-            int multiplyNumber1 = 1;
-            int multiplyNumber2 = 2;
+            int firstNumber = 1;
+            int secondNumber = 2;
             int expected = 2;
 
             //-- Act
-            int actual = calculator.Multiply(multiplyNumber1, multiplyNumber2);
+            int actual = calculator.Multiply(firstNumber, secondNumber);
 
             //-- Assert
             Assert.AreEqual(expected, actual);
@@ -60,12 +60,12 @@ namespace KnowledgeCheck1_CalculatorTest
         {
             //-- Arrange
             Calculator calculator = new Calculator();
-            double divideNumber1 = 1;
-            double divideNumber2 = 2;
+            double firstNumber = 1;
+            double secondNumber = 2;
             double expected = 0.5;
 
             //-- Act
-            double actual = calculator.Divide(divideNumber1, divideNumber2);
+            double actual = calculator.Divide(firstNumber, secondNumber);
 
             //-- Assert
             Assert.AreEqual(expected, actual);
